@@ -31,7 +31,7 @@ header {
     a {
         color: var(--levante);
         text-decoration: none;
-        font-weight: bolder;
+        font-weight: bold;
     }
 }
 
@@ -49,7 +49,7 @@ p {
     padding:3%;
     a {
         color: var(--beige);
-        text-weight: bolder;
+        text-weight: bold;
         text-decoration: none;
     }
 }
@@ -58,7 +58,7 @@ footer {
     font-size: 110%;
     a {
         colorr: var(--beige);
-        text-weight: bolder;
+        text-weight: bold;
         text-decoration: none;
     }
 }
