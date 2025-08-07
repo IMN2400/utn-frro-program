@@ -12,6 +12,7 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: Nimbus Roman, Times, serif;
 }
 body {
     font-family: nimbus-roman;
@@ -47,6 +48,7 @@ p {
     border: var(--carmín);
     border-style: solid;
     border-width: xem;
+    text-weight: lighter;
     padding:3%;
     a {
         color: var(--beige);
@@ -58,7 +60,7 @@ p {
 footer {
     font-size: 110%;
     a {
-        colorr: var(--beige);
+        color: var(--beige);
         text-weight: 900;
         text-decoration: none;
     }
