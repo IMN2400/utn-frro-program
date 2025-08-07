@@ -18,6 +18,7 @@ body {
     font-size: 16px;
     background-color: var(--levante);
     color: var(--charol);
+    font-weight: lighter;
     
 }
 header {
@@ -31,7 +32,7 @@ header {
     a {
         color: var(--levante);
         text-decoration: none;
-        font-weight: bold;
+        font-weight: 900;
     }
 }
 
@@ -58,7 +59,7 @@ footer {
     font-size: 110%;
     a {
         colorr: var(--beige);
-        text-weight: bold;
+        text-weight: 900;
         text-decoration: none;
     }
 }
