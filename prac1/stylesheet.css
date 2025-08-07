@@ -49,6 +49,7 @@ p {
     border-style: solid;
     border-width: xem;
     text-weight: lighter;
+    margin: 5%;
     padding:3%;
     a {
         color: var(--beige);
@@ -59,6 +60,7 @@ p {
 
 footer {
     font-size: 110%;
+    background-color: var(--charol);
     a {
         color: var(--beige);
         text-weight: 900;
