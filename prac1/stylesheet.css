@@ -1,0 +1,49 @@
+/* Hoja de estilos */
+
+:root {
+    --fondo: #1e1e77;
+    --texto: #fcf3c3;
+    --carmín: #b01a1a;
+    --charol: #05000f;
+    --levante: #dcefff;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: nimbus-roman;
+    font-size: 16px;
+    background-color: var(--levante);
+    color: var(--charol);
+    
+}
+header {
+    font-size: 75%;
+    background-color: var(--carmín);
+    border: var(--charol);
+    border-width: 1ex;
+    border-style: solid;
+    text-align: center;
+    padding: 2ex;
+    a {
+        color: var(--levante);
+        text-decoration: none;
+        font-weight: bold;
+    }
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+
+}
+p {
+    background-color: var(--fondo);
+    color: var(--texto);
+    border: var(--carmín);
+    border-style: solid;
+    border-width: xem;
+    padding:3%;
+}
