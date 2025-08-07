@@ -6,6 +6,7 @@
     --carmín: #b01a1a;
     --charol: #05000f;
     --levante: #dcefff;
+    --beige: #eed5c3
 }
 
 *{
@@ -30,7 +31,7 @@ header {
     a {
         color: var(--levante);
         text-decoration: none;
-        font-weight: bold;
+        font-weight: bolder;
     }
 }
 
@@ -46,4 +47,18 @@ p {
     border-style: solid;
     border-width: xem;
     padding:3%;
+    a {
+        color: var(--beige);
+        text-weight: bolder;
+        text-decoration: none;
+    }
+}
+
+footer {
+    font-size: 110%;
+    a {
+        colorr: var(--beige);
+        text-weight: bolder;
+        text-decoration: none;
+    }
 }
