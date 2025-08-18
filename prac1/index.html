@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Main Page</title>
     <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+    <script src="scripts/verificaredad.js"></script>
     <link rel="stylesheet" href="stylesheet.css">
   </head>
   <body>
@@ -40,6 +41,26 @@
       </section>
       <section>
       <p>  Expedita <u>blanditiis</u> sed suscipit molestiae. A veniam autem debitis officiis <i>et aspernatur</i>. Sunt consequatur facere dolores rerum at maxime enim. Quo <mark>atque ut delectus.</mark>  Voluptas quas veritatis est debitis cupiditate <b>repellat</b> sed officia. Quia et molestias quae quos quae alias fugit.</p>
+      </section>
+      <section>
+        <div>
+          <p>
+            <button type="button"  name="verificar-edad" onclick="document.getElementById('buttonprint').innerHTML = verificaredad()">Verificar edad</button>
+          </p>
+          <p id="buttonprint"></p>
+        </div>
+      </section>
+
+
+      <section>
+        <div>
+          <form>
+            <label for="numero">Número: </label>
+            <input type="text" id="numero" name="numero"><br><br>
+            <button type="button"  name="verificar-edad" onclick="document.getElementById('numeroprint').innerHTML = clasificarnro(numero)">Verificar número</button>
+          </form>
+          <p id="numeroprint"></p>
+        </div>
       </section>
 
       </main>

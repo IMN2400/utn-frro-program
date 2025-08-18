@@ -48,12 +48,12 @@ p {
     border: var(--carmín);
     border-style: solid;
     border-width: xem;
-    text-weight: lighter;
+    font-weight: lighter;
     margin: 5%;
     padding:3%;
     a {
         color: var(--beige);
-        text-weight: bold;
+        font-weight: bold;
         text-decoration: none;
     }
 }
@@ -63,7 +63,7 @@ footer {
     background-color: var(--charol);
     a {
         color: var(--beige);
-        text-weight: 900;
+        font-weight: 900;
         text-decoration: none;
     }
 }
